@@ -12,9 +12,16 @@ module.exports = merge(common, {
     assetModuleFilename: "./assets/[name].[hash].[ext]",
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
+    }),    
     new MiniCssExtractPlugin({ filename: "[name].[contenthash].css" }),
     new CleanWebpackPlugin(),
   ],
+  optimization: {
+    minimize: false
+  },  
   module: {
     rules: [
       {
