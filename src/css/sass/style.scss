@@ -25,6 +25,18 @@ Template de autoria da Agência 904, todos os direitos reservados © Copyright 2
 @import './components/header/style.scss';
 @import './components/banner/style.scss';
 
+@keyframes opacity {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
 *, *:before, *:after{
     box-sizing: border-box;
 }
@@ -32,6 +44,9 @@ Template de autoria da Agência 904, todos os direitos reservados © Copyright 2
 html, body {
     background-color: whitesmoke;
     min-width: 375px;
+    @media screen and (min-width: 992px) {
+        animation: opacity 300ms forwards;
+    }    
 }
 
 html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{

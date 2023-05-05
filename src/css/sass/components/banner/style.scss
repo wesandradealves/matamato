@@ -1,3 +1,31 @@
+@keyframes banner_info {
+    from {
+        left: -10px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        left: 0%;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes banner_thumbnail_wrapper {
+    from {
+        right: -10px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        right: 0%;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
 .banner {
     text-align: center;
     background-color: lightgray;
@@ -13,7 +41,19 @@
             border-radius: 0 0 100px 0;
         }        
     }
+    &-info {
+        position: relative;
+        @media screen and (min-width: 992px) {
+            animation: banner_info 300ms forwards;
+        }
+    }
     &-thumbnail {
+        &-wrapper {
+            position: relative;
+            @media screen and (min-width: 992px) {
+                animation: banner_thumbnail_wrapper 300ms forwards;
+            }            
+        }
         position: relative;
         @media screen and (min-width: 992px) {
             bottom: -170px;

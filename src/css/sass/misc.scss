@@ -18,7 +18,10 @@
         font-size: 1.1rem;
         line-height: 1.2;
         padding: 20px 30px;
+        transition: 500ms ease border-radius;
+        position: relative;
         &:hover {
+            border-radius: 0 !important;
             background-color: color(secondary, light);
         }
     }
