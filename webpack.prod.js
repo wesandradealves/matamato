@@ -1,3 +1,4 @@
+var webpack = require('webpack');
 const path = require("path");
 const common = require("./webpack.common");
 const { merge } = require("webpack-merge");
@@ -11,20 +12,9 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, "dist"),
     assetModuleFilename: "./assets/[name].[hash].[ext]",
   },
-  transpileDependencies: true,
-  productionSourceMap: false,
-  transpileDependencies: true,
-  productionSourceMap: false,
-  lintOnSave: false,
-  filenameHashing: false,    
-  chainWebpack: config => {
-    config.optimization.delete('splitChunks');
-    config.optimization.minimize(false);
-  },    
   plugins: [
-    new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery"
+    new webpack.optimize.LimitChunkCountPlugin({
+      maxChunks: 1,
     }),    
     new MiniCssExtractPlugin({ filename: "[name].[contenthash].css" }),
     new CleanWebpackPlugin(),
