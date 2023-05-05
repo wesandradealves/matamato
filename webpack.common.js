@@ -5,8 +5,7 @@ module.exports = {
   mode: "none",
   entry: {
     jquery: "./src/js/jquery.min.js",
-    main: "./src/js/app.js",
-    vendor: "./src/js/vendor.js",
+    main: "./src/js/app.js", 
   },
   plugins: [
     new webpack.DefinePlugin({
