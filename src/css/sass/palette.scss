@@ -1,0 +1,25 @@
+$palettes: (
+    primary: (base: #307dcb, light: lighten(#307dcb, 1)),
+    secondary: (base: #FEB900, light: lighten(#FEB900, 1)),
+    wpp: (base: #01c729, light: lighten(#01c729, 1))
+);
+
+@function color($color,$tone){
+
+    @if map-has-key($palettes,$color){
+        $color: map-get($palettes,$color);
+
+            @if map-has-key($color,$tone){
+                $tone: map-get($color,$tone);
+                @return $tone;
+            }
+
+            @warn "unknown tone `#{$tone}` in color";
+            @return null;        
+    }
+
+    @warn "unknown color `#{$color}` in palette";
+    @return null;
+   
+}
+

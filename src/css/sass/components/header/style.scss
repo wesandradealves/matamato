@@ -1,0 +1,36 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    min-width: 375px;
+    .navigation {
+        .nav-link {
+            font-size: .8rem;
+            color: white;
+            font-weight: bold;
+            position: relative;
+            &::after {
+                content: '';
+                height: 3px;
+                background-color: white;
+                width: 70%;
+                bottom: -10px;
+                left: -70%;
+                position: absolute;
+                transition: all 100ms ease-in-out;
+                opacity: 0;
+                visibility: hidden;
+            }
+            &:hover::after {
+                left: calc(50% - 35%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        .btn-wpp {
+            padding: 11px 17px;
+        }
+    }
+}

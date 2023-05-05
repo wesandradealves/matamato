@@ -1,0 +1,48 @@
+.btn {
+    border-radius: 5px;
+    background-color: color(primary, base);
+    padding: 14px 20px;
+    font-size: .8rem;
+    color: white;
+    text-align: center;
+    transition: 500ms ease border-radius;
+    &:hover {
+        background-color: color(primary, light);
+        border-radius: 0;
+    }    
+    &-cta {
+        background-color: color(secondary, base);
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        font-size: 1.1rem;
+        line-height: 1.2;
+        padding: 20px 30px;
+        &:hover {
+            background-color: color(secondary, light);
+        }
+    }
+    &-wpp {
+        background-color: color(wpp, base);
+        font-size: 22px;
+        i {
+            font-size: inherit;
+        }
+        &:hover {
+            background-color: color(wpp, light);
+        }
+    }
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    font-size: 2rem;
+    @media screen and (min-width: 992px) {
+        font-size: 2.7rem;
+    }
+    font-weight: bold;
+}
