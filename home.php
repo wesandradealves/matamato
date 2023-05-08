@@ -1,4 +1,3 @@
-<?php /* Template Name: Landing Page */ ?>
 <?php get_header(); ?>
 <section class="banner mb-lg-5 overflow-hidden d-flex flex-wrap flex-column align-items-center justify-content-center">
     <div class="container d-flex flex-wrap align-items-stretch justify-content-center">
