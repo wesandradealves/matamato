@@ -1,7 +1,7 @@
         </main>
         <footer class="footer">
             <div class="container">
-                <h2><a href="#" title="Jet Vap - Matamato - Lavadoras a Vapor"><img src="img/logo-top-jetvap.webp" alt="Jet Vap - Matamato - Lavadoras a Vapor"></a></h2>
+                <h2><a href="#" title="Jet Vap - Matamato - Lavadoras a Vapor"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-top-jetvap.webp" alt="Jet Vap - Matamato - Lavadoras a Vapor"></a></h2>
                 <p class="footer-text mt-5 mb-5 pb-4">A transformação tecnológica da sua<br/>capina urbana começa com uma<br/>conversa com os nossos consultores.</p>
                 <ul class="d-flex m5 col-md-9 m-auto footer-info flex-wrap align-items-center justify-content-between">
                     <li class="d-flex mb-4 align-items-center justify-content-between col-12">
