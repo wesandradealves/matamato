@@ -24,9 +24,9 @@
         wp_meta(); 
         wp_head();
     ?>
-    <link rel="stylesheet" href="styles.min.css"> 
-    <script defer src="jquery.js"></script>
-    <script defer src="main.js"></script>
+    <!-- <link rel="stylesheet" href="styles.min.css">  -->
+    <!-- <script defer src="jquery.js"></script> -->
+    <!-- <script defer src="main.js"></script> -->
 </head>
 <body>
     <div id="wrap">
