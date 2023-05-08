@@ -17,22 +17,31 @@
         font-weight: bold;
         font-size: 1.1rem;
         line-height: 1.2;
-        padding: 20px 30px;
+        padding: 15px 30px;
         transition: 500ms ease border-radius;
         position: relative;
+        border-radius: 15px 0 15px 0;
+        &.--variation {
+            background-color: color(primary, navy);
+            color: color(secondary, base);
+            &:hover {
+                background-color: lighten(color(primary, navy), 1);
+                color: color(secondary, base);
+            }
+        }
         &:hover {
             border-radius: 0 !important;
             background-color: color(secondary, light);
         } 
     }
     &-wpp {
-        background-color: color(wpp, base);
+        background-color: color(green, base);
         font-size: 22px;
         i {
             font-size: inherit;
         }
         &:hover {
-            background-color: color(wpp, light);
+            background-color: color(green, light);
         }
     }
 }
@@ -44,8 +53,27 @@
 
 .title {
     font-size: 2rem;
+    line-height: 1.3;
     @media screen and (min-width: 992px) {
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
     font-weight: bold;
+}
+
+[data-type="outlined"] {
+    position: relative;
+    img {
+        position: inherit;
+        z-index: 1;
+        width: 100%;
+        border-radius: 250px 0 250px 0;
+        box-shadow: 10px 10px 20px -20px;
+    }
+    svg {
+        position: absolute;
+        top: 20px;
+        left: -40px;
+        z-index: 2;
+        margin: 0 0 0 0;
+    }
 }

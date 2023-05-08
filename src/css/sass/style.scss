@@ -20,10 +20,17 @@ Template de autoria da Agência 904, todos os direitos reservados © Copyright 2
 
 @import './palette.scss';
 @import './overrides.scss';
-@import './vendors/hamburgers/hamburgers.scss';
+// Vendors
+@import "glightbox/dist/css/glightbox.css";
+@import "owl.carousel/src/scss/owl.carousel.scss";
+@import "owl.carousel/src/scss/owl.theme.default.scss";
+@import 'hamburgers/_sass/hamburgers/hamburgers.scss';
+// 
 @import './misc.scss';
 @import './components/header/style.scss';
+@import './components/footer/style.scss';
 @import './components/banner/style.scss';
+@import './views/home/style.scss';
 
 @keyframes opacity {
     from {
@@ -42,7 +49,7 @@ Template de autoria da Agência 904, todos os direitos reservados © Copyright 2
 }
  
 html, body {
-    background-color: whitesmoke;
+    background-color: white;
     min-width: 375px;
     @media screen and (min-width: 992px) {
         animation: opacity 300ms forwards;
@@ -61,7 +68,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
     text-size-adjust: none;
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 footer, header, nav, section, main{
@@ -97,9 +104,9 @@ input{
 
 p {
     font-size: 1.2rem;
-    line-height: 1.3;
+    line-height: 1.5;
     @media screen and (min-width: 992px) {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }    
 }
 
@@ -107,4 +114,36 @@ p {
     @media screen and (min-width: 1200px) {
         max-width: 1048px;
     }    
+}
+
+strong {
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.background-none {
+    background: initial !important;
+}
+
+.table {
+    text-align: center;
+    line-height: 1.4;
+    & &-header {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    & &-content {
+        [class*="--content"] {
+            font-size: 1.2rem;
+            * {
+                font-size: inherit;
+            }            
+        }
+    }
+    [class*="--content"] {
+        font-size: 1.5rem;
+        * {
+            font-size: inherit;
+        }
+    }
 }

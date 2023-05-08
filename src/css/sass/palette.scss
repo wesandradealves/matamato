@@ -1,7 +1,7 @@
 $palettes: (
-    primary: (base: #307dcb, light: lighten(#307dcb, 1)),
-    secondary: (base: #FEB900, light: lighten(#FEB900, 1)),
-    wpp: (base: #01c729, light: lighten(#01c729, 1))
+    primary: (base: #307dcb, light: lighten(#307dcb, 5%), dark: darken(#307dcb, 25%), navy: #0D484C),
+    secondary: (base: #FEB900, light: lighten(#FEB900, 5%), golden: #8F8C51),
+    green: (base: #01c729, light: lighten(#01c729, 5%), dark: #1A4F28, golden: #77815E)
 );
 
 @function color($color,$tone){
