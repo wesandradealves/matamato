@@ -24,15 +24,12 @@
         wp_meta(); 
         wp_head();
     ?>
-    <!-- <link rel="stylesheet" href="styles.min.css">  -->
-    <!-- <script defer src="jquery.js"></script> -->
-    <!-- <script defer src="main.js"></script> -->
 </head>
 <body>
     <div id="wrap">
         <header class="header">
             <div class="container pt-5 pb-5 d-flex flex-wrap flex-lg-column justify-content-between align-items-center align-items-lg-end justify-content-lg-end">
-                <h1 class="d-lg-none"><a href="#" title="Jet Vap - Matamato - Lavadoras a Vapor"><img src="img/logo-top-white-jetvap.webp" alt="Jet Vap - Matamato - Lavadoras a Vapor"></a></h1>
+                <h1 class="d-lg-none"><a href="#" title="Jet Vap - Matamato - Lavadoras a Vapor"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-top-white-jetvap.webp" alt="Jet Vap - Matamato - Lavadoras a Vapor"></a></h1>
                 <nav class="navigation">
                     <ul class="d-flex flex-wrap align-items-center justify-content-lg-end">
                         <li class="d-none d-md-flex me-4"><a class="nav-link" href="" title="Sobre a Mata Mato">Sobre a Mata Mato</a></li>
