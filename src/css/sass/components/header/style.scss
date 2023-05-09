@@ -41,12 +41,12 @@
             padding-top: 3rem;
             opacity: 0;
             transition: 500ms ease all;
-            z-index: -1;
+            display: none;
             .nav-link:hover::after {
                 display: none;
             }
             &.is-active {
-                z-index: inherit;
+                display: block;
                 opacity: 1;
             }
             @media screen and (min-width: 768px) {
