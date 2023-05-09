@@ -44,4 +44,44 @@ $(document).ready(function($){
 		$(this).closest('header').find('.navigation.--mobile').toggleClass('is-active');
 		$('.hamburger').toggleClass('is-active');
 	});	
+	
+	// Whatsapp Module
+	setTimeout(function () {
+        if (sessionStorage.getItem('name') !== "whatsappIconMessage") {
+            $('.whatsapp-icon-message').addClass('active');
+        }
+    }, 12000);
+
+    $('.whatsapp-icon-message-close').click(function () {
+        sessionStorage.setItem('name', 'whatsappIconMessage');
+        $('.whatsapp-icon-message').removeClass('active');
+    });
+
+    setTimeout(function() {
+        $('#module-whatsapp').css('visibility', 'visible');
+    }, 2000);
+
+    $('.whatsapp-btn').click(function(e) {
+        e.preventDefault();
+
+        if ($('.whatsapp-btn').hasClass('active')) {
+            $('.whatsapp-btn').addClass('not-active');
+            $('.whatsapp-btn').removeClass('active');
+            $('#module-whatsapp-container').removeClass('active');
+            setTimeout(function() {
+                if (sessionStorage.getItem('name') !== "whatsappIconMessage") {
+                    $('.whatsapp-icon-message').addClass('active');
+                }
+            }, 2000);
+        } else {
+            $('.whatsapp-btn').addClass('active');
+            $('.whatsapp-btn').removeClass('not-active');
+            $('#module-whatsapp-container').addClass('active');
+            $('.whatsapp-icon-message').removeClass('active');
+        }
+    });
+
+    setTimeout(function() {
+        $('#module-whatsapp').css('visibility', 'visible');
+    }, 2000);      	
 });
