@@ -17,7 +17,7 @@
                         <p class="d-flex col-lg-6 align-items-center"><i class="fa-solid fa-location-pin me-3"></i> <span>Rua Dr. Helio Valente, 97<br/>Tarumã - Curitiba - PR</span></p>
                     </li>
                 </ul>
-                <p class="copyright pt-3 pb-3">Todos os direitos reservados @ Copyright <?php echo date("Y"); ?>. Desenvolvido a mão por Agência 9ZERO4.</p>
+                <p class="copyright pt-3 pb-3">Todos os direitos reservados @ Copyright <?php echo date("Y"); ?>. Desenvolvido a mão por <strong><a target="_blank" href="https://904.ag/" title="Agência 9ZERO4">Agência 9ZERO4</a></strong>.</p>
             </div>
         </footer> 
     </div> 
