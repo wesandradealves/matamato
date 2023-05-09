@@ -34,8 +34,14 @@ $(document).ready(function($){
 			});			
 		}
 	});	
+	$("header .container").after($(".navigation").clone().addClass("--mobile"));
     $("header").before($("header").clone().addClass("sticky"));
     $(window).on("scroll", function () {
         $(".sticky").toggleClass("stuck", ($(window).scrollTop() > 49));
+		$(".is-active").removeClass('is-active')
     });	
+	$( "body" ).on( "click", ".hamburger", function(e) {
+		$(this).closest('header').find('.navigation.--mobile').toggleClass('is-active');
+		$('.hamburger').toggleClass('is-active');
+	});	
 });

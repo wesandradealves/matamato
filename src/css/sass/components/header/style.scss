@@ -32,6 +32,43 @@
         .btn-wpp {
             padding: 11px 17px;
         }
+        &.--mobile {
+            width: 100%;
+            height: calc(100vh - 141px);
+            position: absolute;
+            top: 100%;
+            background-color: rgba(0,0,0,.5);
+            padding-top: 3rem;
+            opacity: 0;
+            transition: 500ms ease all;
+            z-index: -1;
+            .nav-link:hover::after {
+                display: none;
+            }
+            &.is-active {
+                z-index: inherit;
+                opacity: 1;
+            }
+            @media screen and (min-width: 768px) {
+                display: none !important;
+            }
+            > * {
+                max-width: 540px;
+                padding: 0 25px;
+                margin: 0 auto;
+                flex-flow: column wrap !important;
+                align-items: flex-end !important;   
+                > * {
+                    margin: 0 0 2rem !important;
+                    display: none !important;
+                    @for $i from 1 through 3 {
+                        &:nth-child(#{$i}) {
+                            display: block !important;
+                        }
+                    }                    
+                }
+            }
+        }
     }
     &.sticky {
         position: fixed;
@@ -45,10 +82,12 @@
         }
         .container {
             transition: 500ms ease all;
-            flex-flow: row wrap !important;
-            justify-content: space-between !important;
-            padding-top: 15px !important;
-            padding-bottom: 15px !important;
+            @media screen and (min-width: 768px) {
+                flex-flow: row wrap !important;
+                justify-content: space-between !important;
+                padding-top: 15px !important;
+                padding-bottom: 15px !important;
+            }
         }
         &.stuck {
             top: 0;
