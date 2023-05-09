@@ -35,7 +35,9 @@
                     <p><strong>Olá! Posso ajudar?</strong> Qualquer coisa me chama aqui, ta?</p>
                 </div>
             </div>
-            <div class="module-whatsapp-btn-icon"></div>
+            <div class="module-whatsapp-btn-icon">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
         </div>
 
         <div class="module-whatsapp-container" id="module-whatsapp-container">
