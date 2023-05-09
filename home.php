@@ -1,21 +1,16 @@
 <?php get_header(); ?>
 <section class="banner mb-lg-5 overflow-hidden d-flex flex-wrap flex-column align-items-center justify-content-center">
     <div class="container d-flex flex-wrap align-items-stretch justify-content-center">
-        <div
-            class="banner-info col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start">
-            <h2 class="d-none d-lg-block"><a href="#" title="Jet Vap - Matamato - Lavadoras a Vapor"><img
-                        src="<?php echo get_template_directory_uri(); ?>/img/logo-top-white-jetvap.webp" alt="Jet Vap - Matamato - Lavadoras a Vapor"></a></h2>
+        <div class="banner-info col-12 col-md-8 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+            <h2 class="d-none d-lg-block"><a href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Jet Vap - Matamato - Lavadoras a Vapor"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-top-white-jetvap.webp" alt="Jet Vap - Matamato - Lavadoras a Vapor"></a></h2>
             <h3 class="title d-block">Mata Mato Urban 300.</h3>
-            <p class="text d-block">Um novo conceito de capina urbana:<br />sustentável e eficiente.</p>
+            <p class="text d-block">Um novo conceito de capina urbana:<br/>sustentável e eficiente.</p>
             <span class="d-block">
-                <a class="btn d-inline-block btn-cta mt-3" href="#" title="Fale com nossos consultores"
-                    class="btn btn-cta">Fale com nossos consultores</a>
+                <a class="btn d-inline-block btn-cta mt-3" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com nossos consultores" class="btn btn-cta">Fale com nossos consultores</a>
             </span>
         </div>
-        <div
-            class="banner-thumbnail-wrapper col-12 d-flex col-md-6 align-items-center justify-content-end flex-column flex-wrap">
-            <img class="img-fluid banner-thumbnail d-block m-auto" src="<?php echo get_template_directory_uri(); ?>/img/intro-maquina-jet-vap.png"
-                alt="Jet Vap - Matamato - Lavadoras a Vapor">
+        <div class="banner-thumbnail-wrapper col-12 d-flex col-md-4 align-items-center justify-content-end flex-column flex-wrap">
+            <img class="img-fluid banner-thumbnail d-block m-auto" src="<?php echo get_template_directory_uri(); ?>/img/mata-mato-urbar-300-jet-vap.png" alt="Jet Vap - Matamato - Lavadoras a Vapor">
         </div>
     </div>
     <img class="banner-bg" src="<?php echo get_template_directory_uri(); ?>/img/banner-intro.jpg" alt="Mata Mato Urban 300.">
@@ -36,7 +31,7 @@
                     os sentidos. Com ela, a sua empresa ou prefeitura realiza a capina com mais eficiência, rapidez e
                     segurança, economizando recursos.
                 </p>
-                <a class="btn d-inline-block btn-cta --variation mt-4" href="#" title="Fale com nossos consultores"
+                <a class="btn d-inline-block btn-cta --variation mt-4" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com nossos consultores"
                     class="btn btn-cta">Fale com nossos consultores</a>
             </div>
             <div data-type="outlined"
@@ -177,7 +172,7 @@
             </li>
         </ul>
         <span class="d-flex mt-5 flex-column justify-content-center">
-            <a class="btn d-inline-block btn-cta mt-3 ms-auto me-auto" href="#" title="Fale com a gente e saiba mais"
+            <a class="btn d-inline-block btn-cta mt-3 ms-auto me-auto" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com a gente e saiba mais"
                 class="btn btn-cta">Fale com a gente e saiba mais</a>
         </span>
     </div>
@@ -196,7 +191,7 @@
                         benefícios dessa nova tecnologia.
                     </p>
                     <span class="d-flex mt-4 flex-column justify-content-center">
-                        <a class="btn d-inline-block btn-cta --variation me-auto ms-auto ms-md-0" href="#"
+                        <a class="btn d-inline-block btn-cta --variation me-auto ms-auto ms-md-0" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20"
                             title="Fale com nossos consultores" class="btn btn-cta">Fale com nossos consultores</a>
                     </span>
                 </div>
@@ -322,7 +317,7 @@
                 </div>
                 <p class="list-text mt-5">Máquina Mata Mato Urban 300</p>
                 <span class="d-block mt-4">
-                    <a class="btn d-inline-block btn-cta mt-3" href="#" title="Fale com um consultor"
+                    <a class="btn d-inline-block btn-cta mt-3" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com um consultor"
                         class="btn btn-cta">Fale com um consultor</a>
                 </span>
             </li>
@@ -346,7 +341,7 @@
                 <p class="list-text mt-5">Máquina Mata Mato Urban 300<br /><span>+</span> Caminhão <span>+</span>
                     Reservatório de água</p>
                 <span class="d-block mt-4">
-                    <a class="btn d-inline-block btn-cta mt-3" href="#" title="Fale com um consultor"
+                    <a class="btn d-inline-block btn-cta mt-3" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com um consultor"
                         class="btn btn-cta">Fale com um consultor</a>
                 </span>
             </li>
@@ -365,7 +360,7 @@
                     Vap.<br /><br />Conhecida há mais de 15 anos como sinônimo de inovação, a Jet Vap desenvolve
                     soluções de Engenharia voltadas as necessidades das empresas e municípios brasileiros.
                 </p>
-                <a class="btn d-inline-block btn-cta --variation mt-5" href="#" title="Fale com nossos consultores"
+                <a class="btn d-inline-block btn-cta --variation mt-5" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com nossos consultores"
                     class="btn btn-cta">Fale com nossos consultores</a>
             </div>
             <div
