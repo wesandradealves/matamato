@@ -61,7 +61,7 @@ $(document).ready(function($){
         $('#module-whatsapp').css('visibility', 'visible');
     }, 2000);
 
-    $('.whatsapp-btn').click(function(e) {
+    $('.whatsapp-btn, [href*="https://api.whatsapp.com"]').click(function(e) {
         e.preventDefault();
 
         if ($('.whatsapp-btn').hasClass('active')) {
