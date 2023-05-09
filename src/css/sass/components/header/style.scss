@@ -33,4 +33,26 @@
             padding: 11px 17px;
         }
     }
+    &.sticky {
+        position: fixed;
+        z-index: 50;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        transition: 1000ms ease all;
+        h1.d-lg-none {
+            display: flex !important;
+        }
+        .container {
+            transition: 500ms ease all;
+            flex-flow: row wrap !important;
+            justify-content: space-between !important;
+            padding-top: 15px !important;
+            padding-bottom: 15px !important;
+        }
+        &.stuck {
+            top: 0;
+            background-color: rgba(0,0,0,.3);
+        }
+    }
 }

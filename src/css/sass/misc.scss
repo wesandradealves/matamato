@@ -1,14 +1,14 @@
 .btn {
     border-radius: 5px;
     background-color: color(primary, base);
-    padding: 14px 20px;
+    padding: 16px 20px;
     font-size: .8rem;
     color: white;
     text-align: center;
     transition: 500ms ease border-radius;
     &:hover {
         background-color: color(primary, light);
-        border-radius: 0;
+        // border-radius: 0;
     }    
     &-cta {
         background-color: color(secondary, base);
@@ -25,13 +25,13 @@
             background-color: color(primary, navy);
             color: color(secondary, base);
             &:hover {
-                background-color: lighten(color(primary, navy), 1);
-                color: color(secondary, base);
+                background-color: color(secondary, base);
+                color: color(primary, navy);
             }
         }
         &:hover {
-            border-radius: 0 !important;
-            background-color: color(secondary, light);
+            background-color: color(primary, base);
+            color: white;
         } 
     }
     &-wpp {
@@ -75,5 +75,46 @@
         left: -40px;
         z-index: 2;
         margin: 0 0 0 0;
+    }
+}
+
+.background-none {
+    background: initial !important;
+}
+
+.table {
+    text-align: center;
+    line-height: 1.4;
+    [data-mobile-title] {
+        &::before {
+            display: block;
+            @media screen and (min-width: 768px) {
+                display: none;
+            }
+            font-weight: bold;
+            padding: 0 35px;
+            content: attr(data-mobile-title) ':';
+        }
+    }
+    & &-header {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    & &-content {
+        [class*="--content"] {
+            font-size: 1.2rem;
+            * {
+                font-size: inherit;
+            }            
+        }
+    }
+    [class*="--content"] {
+        font-size: 1.2rem;
+        @media screen and (min-width: 768px) {
+            font-size: 1.5rem;
+        }
+        * {
+            font-size: inherit;
+        }
     }
 }

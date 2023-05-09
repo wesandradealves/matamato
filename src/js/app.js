@@ -24,4 +24,18 @@ $(document).ready(function($){
 		stagePadding: 10,
 		margin:0
 	});
+	$( "body" ).on( "click", ".nav-link", function(e) {
+		e.preventDefault();
+		if(e.target.href.indexOf('#')) {
+			let id = e.target.href.split('#')[1];
+			const element = document.getElementById(id);
+			element.scrollIntoView({
+				behavior: 'smooth'
+			});			
+		}
+	});	
+    $("header").before($("header").clone().addClass("sticky"));
+    $(window).on("scroll", function () {
+        $(".sticky").toggleClass("stuck", ($(window).scrollTop() > 49));
+    });	
 });

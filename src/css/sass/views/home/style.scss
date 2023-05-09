@@ -1,4 +1,4 @@
-.revolucao-do-vapor {
+.a-revolucao-do-vapor-chegou-a-capina-urbana {
     position: relative;
     z-index: 2;
     @media screen and (min-width: 992px) {
@@ -23,7 +23,7 @@
         }
     }
 }
-.tecnologia-cidade-sustentavel {
+.tecnologia-por-uma-cidade-mais-sustentavel {
     color: white;
     overflow: hidden;
     text-align: center;
@@ -76,15 +76,18 @@
                         }
                     }                    
                     &--item {
+                        span {
+                            width: 100%;
+                        }
                         background-color: lighten(color(primary, base), 5%);
                         &:nth-child(even) {
                             background-color: lighten(color(primary, dark), 5%);
                         }
-                        &:first-of-type {
-                            text-align: left;
+                        &:first-child {
                             font-weight: bold;
+                            text-align: left;
                         }
-                        &:last-of-type {
+                        &:last-child {
                             background-color: color(secondary, golden);
                         }                        
                     }
@@ -115,33 +118,36 @@
         .container {
             position: relative;
             padding-top: 70px;
-            padding-bottom: 70px;             
-            @media screen and (min-width: 992px) {
-                &::after,
-                &::before {
-                    content: '';
-                    position: absolute;
-                    top: -80px;
-                    left: -100vw;
-                    background: white;
-                    height: calc(100% + 80px);
-                    width: calc(100vw + 900px);
-                    display: block;
-                    border-radius: 0 200px 0 0;
-                    z-index: 1;
+            padding-bottom: 20px;       
+            @media screen and (min-width: 768px) {
+                padding-bottom: 70px;    
+                @media screen and (min-width: 992px) {
+                    &::after,
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        top: -80px;
+                        left: -100vw;
+                        background: white;
+                        height: calc(100% + 80px);
+                        width: calc(100vw + 900px);
+                        display: block;
+                        border-radius: 0 200px 0 0;
+                        z-index: 1;
+                    }
+                    &::after {
+                        top: initial;
+                        background-color: white;
+                        z-index: 2;
+                        bottom: 0;
+                        left: calc(50% - 50vw);
+                        right: 0;
+                        border-radius: 0;
+                        height: 50%;
+                        width: 100vw;
+                    }
                 }
-                &::after {
-                    top: initial;
-                    background-color: white;
-                    z-index: 2;
-                    bottom: 0;
-                    left: calc(50% - 50vw);
-                    right: 0;
-                    border-radius: 0;
-                    height: 50%;
-                    width: 100vw;
-                }
-            }
+            }      
             * {
                 z-index: 3;
                 position: relative;
@@ -242,7 +248,7 @@
         }
     }
 }
-.a-maquina-que-combina {
+.a-maquina-que-combina-produtividade-com-sustentabilidade {
     text-align: center;
     .container {
         padding-top: 70px;

@@ -41,7 +41,7 @@ Template de autoria da Agência 904, todos os direitos reservados © Copyright 2
     to {
         opacity: 1;
         visibility: visible;
-    }
+    } 
 }
 
 *, *:before, *:after{
@@ -102,48 +102,8 @@ input{
     border-radius: 0;
 }
 
-p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    @media screen and (min-width: 992px) {
-        font-size: 1.5rem;
-    }    
-}
-
-.container {
-    @media screen and (min-width: 1200px) {
-        max-width: 1048px;
-    }    
-}
-
 strong {
     font-size: inherit;
     font-weight: bold;
 }
 
-.background-none {
-    background: initial !important;
-}
-
-.table {
-    text-align: center;
-    line-height: 1.4;
-    & &-header {
-        text-transform: uppercase;
-        font-weight: bold;
-    }
-    & &-content {
-        [class*="--content"] {
-            font-size: 1.2rem;
-            * {
-                font-size: inherit;
-            }            
-        }
-    }
-    [class*="--content"] {
-        font-size: 1.5rem;
-        * {
-            font-size: inherit;
-        }
-    }
-}

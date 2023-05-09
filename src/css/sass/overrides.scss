@@ -1,1 +1,15 @@
 $hamburger-layer-color: #fff;
+
+.container {
+    @media screen and (min-width: 1200px) {
+        max-width: 1048px;
+    }    
+}
+
+p {
+    font-size: 1.2rem !important;
+    line-height: 1.5 !important;
+    @media screen and (min-width: 992px) {
+        font-size: 1.5rem !important;
+    }    
+}

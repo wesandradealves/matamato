@@ -19,28 +19,24 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.ASSET_PATH': JSON.stringify(ASSET_PATH)
     }),    
-    // new webpack.ProvidePlugin({
-    //   $: "jquery",
-    //   jQuery: "jquery"
-    // }),      
     new HTMLWebpackPlugin({
       template: "./src/index.html",
     }),
   ],
   module: {
     rules: [
-      {
-        test: /\.(css)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: './'
-            }
-          }
-        ]
-      },           
+      // {
+      //   test: /\.(css)$/,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name: '[name].[ext]',
+      //         outputPath: './'
+      //       }
+      //     }
+      //   ]
+      // },           
       {
         test: /\.(gif|svg|png|avif|webp|jpe?g)$/,
         use: [
@@ -54,7 +50,7 @@ module.exports = {
         ]
       },        
       {
-        test: /\.scss$/,
+        test: /\.(sa|sc|c)ss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
