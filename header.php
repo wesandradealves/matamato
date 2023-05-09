@@ -32,9 +32,9 @@
                 <h1 class="d-lg-none"><a href="#" title="Jet Vap - Matamato - Lavadoras a Vapor"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-top-white-jetvap.webp" alt="Jet Vap - Matamato - Lavadoras a Vapor"></a></h1>
                 <nav class="navigation">
                     <ul class="d-flex flex-wrap align-items-center justify-content-lg-end">
-                        <li class="d-none d-md-flex me-4"><a class="nav-link" href="" title="Sobre a Mata Mato">Sobre a Mata Mato</a></li>
-                        <li class="d-none d-md-flex me-4"><a class="nav-link" href="" title="Benefícios">Benefícios</a></li>
-                        <li class="d-none d-md-flex me-lg-4"><a class="nav-link" href="" title="Jet Vap">Jet Vap</a></li>
+                        <li class="d-none d-md-flex me-4"><a class="nav-link" href="#a-revolucao-do-vapor-chegou-a-capina-urbana" title="Sobre a Mata Mato">Sobre a Mata Mato</a></li>
+                        <li class="d-none d-md-flex me-4"><a class="nav-link" href="#a-maquina-que-combina-produtividade-com-sustentabilidade" title="Benefícios">Benefícios</a></li>
+                        <li class="d-none d-md-flex me-lg-4"><a class="nav-link" href="#como-jetvap-so-jetvap" title="Jet Vap">Jet Vap</a></li>
                         <li class="d-none d-lg-flex ms-2 me-4">
                             <a class="btn d-flex flex-wrap align-items-center" href="tel:554130798009" title="41 3079-8009">
                                 <i class="fa-solid fa-phone me-2"></i>
