@@ -1123,3 +1123,18 @@
     font-family: "OpenSans-Regular", sans-serif !important !important;
     border-radius: 3px !important;
 }
+module-whatsapp .module-whatsapp-btn .module-whatsapp-btn-icon .fa-xmark {
+    opacity: 0;
+    transition: 1000ms ease all;
+    color: white;
+    font-size: 30px;
+    top: 0;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.module-whatsapp .module-whatsapp-btn.active .fa-xmark {
+    opacity: 1;
+}
