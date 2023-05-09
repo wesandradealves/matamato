@@ -1,7 +1,9 @@
 $hamburger-layer-color: #fff;
 
-.container {
-    @media screen and (min-width: 1200px) {
-        max-width: 1048px;
-    }    
+main {
+    .container {
+        @media screen and (min-width: 1200px) {
+            max-width: 1048px;
+        }    
+    }
 }

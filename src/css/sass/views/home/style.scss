@@ -6,13 +6,33 @@
     }    
     .container {
         padding-top: 70px;
-        padding-bottom: 70px;  
+        @media screen and (min-width: 768px) {
+            padding-bottom: 70px;  
+        }
         text-align: center;      
         .title {
             color: color(green, dark);
         }
         [data-type="outlined"] {
-            margin-top: -50px;
+            @media screen and (min-width: 768px) {
+                margin-top: -50px;
+            }
+            @media screen and (max-width: 768px) {
+                padding: 0 !important;
+                width: calc(100% + 22px);
+                margin-left: -11px !important;
+                margin-right: -11px !important;
+                img {
+                    width: 100%;
+                    border-radius: 0;
+                }                    
+            }              
+            svg {
+                display: none;
+                @media screen and (min-width: 768px) {
+                    display: block;
+                }
+            }
         }
         @media screen and (min-width: 768px) {
             text-align: initial;
