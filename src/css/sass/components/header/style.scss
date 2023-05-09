@@ -34,7 +34,7 @@
         }
         &.--mobile {
             width: 100%;
-            height: calc(100vh - 141px);
+            height: 100vh;
             position: absolute;
             top: 100%;
             background-color: rgba(0,0,0,.5);
@@ -82,11 +82,11 @@
         }
         .container {
             transition: 500ms ease all;
+            padding-top: 15px !important;
+            padding-bottom: 15px !important;
             @media screen and (min-width: 768px) {
                 flex-flow: row wrap !important;
                 justify-content: space-between !important;
-                padding-top: 15px !important;
-                padding-bottom: 15px !important;
             }
         }
         &.stuck {

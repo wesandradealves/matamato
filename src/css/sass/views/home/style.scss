@@ -17,7 +17,6 @@
         @media screen and (min-width: 768px) {
             text-align: initial;
             @media screen and (min-width: 992px) {
-                padding-top: 140px;
                 padding-bottom: 140px;
             }
         }
@@ -333,24 +332,26 @@
                 font-size: inherit;
             }
         }
-        > * {
-            [data-type="outlined"] {
-                img {
-                    width: 350px;
-                    height: auto;
-                    @media screen and (min-width: 992px) {
-                        height: 95%;
-                        left: -30px;
-                        width: auto;
-                    }
-                }
-            }              
+        > * {            
             &:first-of-type {
                 [data-type="outlined"] {
                     img {
-                        height: 80%;
-                        bottom: -20px;
-                        left: 0;
+                        height: 270px;
+                        bottom: -15px;
+                        @media screen and (min-width: 992px) {
+                            height: 80%;
+                            bottom: -20px;
+                            left: 0;
+                        }
+                    }
+                }   
+            }
+            &:last-of-type {
+                [data-type="outlined"] {
+                    img {
+                        border-radius: 0 0 160px 0;
+                        left: -22px;
+                        width: 390px;
                     }
                 }   
             }
