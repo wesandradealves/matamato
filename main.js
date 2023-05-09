@@ -16,8 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-$(document).ready(function($){
+jQuery(document).ready(function($) {
 	const lightbox = glightbox__WEBPACK_IMPORTED_MODULE_1___default()({
 		touchNavigation: true,
 		loop: true,
