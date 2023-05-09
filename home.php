@@ -4,7 +4,7 @@
         <div
             class="banner-info col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start">
             <h2 class="d-none d-lg-block"><a href="#" title="Jet Vap - Matamato - Lavadoras a Vapor"><img
-                        src="img/logo-top-white-jetvap.webp" alt="Jet Vap - Matamato - Lavadoras a Vapor"></a></h2>
+                        src="<?php echo get_template_directory_uri(); ?>/img/logo-top-white-jetvap.webp" alt="Jet Vap - Matamato - Lavadoras a Vapor"></a></h2>
             <h3 class="title d-block">Mata Mato Urban 300.</h3>
             <p class="text d-block">Um novo conceito de capina urbana:<br />sustentável e eficiente.</p>
             <span class="d-block">
@@ -14,11 +14,11 @@
         </div>
         <div
             class="banner-thumbnail-wrapper col-12 d-flex col-md-6 align-items-center justify-content-end flex-column flex-wrap">
-            <img class="img-fluid banner-thumbnail d-block m-auto" src="img/intro-maquina-jet-vap.png"
+            <img class="img-fluid banner-thumbnail d-block m-auto" src="<?php echo get_template_directory_uri(); ?>/img/intro-maquina-jet-vap.png"
                 alt="Jet Vap - Matamato - Lavadoras a Vapor">
         </div>
     </div>
-    <img class="banner-bg" src="img/banner-intro.jpg" alt="Mata Mato Urban 300.">
+    <img class="banner-bg" src="<?php echo get_template_directory_uri(); ?>/img/banner-intro.jpg" alt="Mata Mato Urban 300.">
 </section>
 <section id="a-revolucao-do-vapor-chegou-a-capina-urbana" class="a-revolucao-do-vapor-chegou-a-capina-urbana">
     <div class="container">
@@ -41,7 +41,7 @@
             </div>
             <div data-type="outlined"
                 class="mt-5 mt-md-0 col-7 m-auto ms-md-5 col-md-5 d-flex flex-wrap flex-column justify-content-center align-items-center">
-                <img class="d-block" src="img/a-revolucao-a-vapor-jet-vap.jpg"
+                <img class="d-block" src="<?php echo get_template_directory_uri(); ?>/img/a-revolucao-a-vapor-jet-vap.jpg"
                     alt="A Revolução do vapor chegou a capina urbana." class="img-fluid">
                 <svg class="outline" xmlns="http://www.w3.org/2000/svg" width="278" height="278" viewBox="0 0 278 278">
                     <g fill="none" stroke="#307dcb" stroke-width="1">
@@ -256,42 +256,42 @@
             investimento que se paga entre 5 meses a 1 ano de operação.</p>
         <ul class="list d-flex flex-wrap justify-content-between align-items stretch">
             <li class="list-item mb-5 pb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
-                <img class="list-item-icon" height="100" src="img/icone-capina-100-a-vapor-jet-vap.svg"
+                <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-capina-100-a-vapor-jet-vap.svg"
                     alt="Capina 100% à Vapor">
                 <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Capina 100% à Vapor</h3>
             </li>
             <li class="list-item mb-5 pb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
-                <img class="list-item-icon" height="100" src="img/icone-sem-produtos-quimicos-jet-vap.svg"
+                <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-sem-produtos-quimicos-jet-vap.svg"
                     alt="Sem Produtos Químicos">
                 <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Sem Produtos Químicos</h3>
             </li>
             <li class="list-item mb-5 pb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
-                <img class="list-item-icon" height="100" src="img/icone-reducao-de-custos-jet-vap.svg"
+                <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-reducao-de-custos-jet-vap.svg"
                     alt="Redução de Custos">
                 <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Redução de Custos</h3>
             </li>
             <li class="list-item mb-5 pb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
-                <img class="list-item-icon" height="100" src="img/icone-otimizacao-dos-servicos-jet-vap.svg"
+                <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-otimizacao-dos-servicos-jet-vap.svg"
                     alt="Otimização dos Serviços">
                 <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Otimização dos Serviços</h3>
             </li>
             <li class="list-item mb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
-                <img class="list-item-icon" height="100" src="img/icone-profissinais-qualificados-jet-vap.svg"
+                <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-profissinais-qualificados-jet-vap.svg"
                     alt="Profissionais Qualificados">
                 <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Profissionais Qualificados</h3>
             </li>
             <li class="list-item mb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
-                <img class="list-item-icon" height="100" src="img/icone-maior-valor-agregado-jet-vap.svg"
+                <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-maior-valor-agregado-jet-vap.svg"
                     alt="Maior valor agregado">
                 <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Maior valor agregado</h3>
             </li>
             <li class="list-item mb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
-                <img class="list-item-icon" height="100" src="img/icone-mais-reputacao-para-sua-marca-jet-vap.svg"
+                <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-mais-reputacao-para-sua-marca-jet-vap.svg"
                     alt="Mais reputação para sua marca">
                 <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Mais reputação para sua marca</h3>
             </li>
             <li class="list-item d-flex col-6 col-lg-3 flex-column align-items-center">
-                <img class="list-item-icon" height="100" src="img/icone-melhor-custo-beneficio-jet-vap.svg"
+                <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-melhor-custo-beneficio-jet-vap.svg"
                     alt="Melhor custo x benefício">
                 <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Melhor custo x benefício</h3>
             </li>
@@ -306,7 +306,7 @@
             <li class="list-item mb-5 mb-lg-0 col-12 col-lg-5 d-flex flex-column justify-content-between">
                 <h3 class="list-item-title mb-3">Básica</h3>
                 <div data-type="outlined" class="--centered d-flex flex-column justify-content-end align-items-center">
-                    <img class="d-block" src="img/intro-maquina-jet-vap.png" alt="Máquina Mata Mato Urban 300"
+                    <img class="d-block" src="<?php echo get_template_directory_uri(); ?>/img/intro-maquina-jet-vap.png" alt="Máquina Mata Mato Urban 300"
                         class="img-fluid">
                     <svg class="outline" xmlns="http://www.w3.org/2000/svg" width="278" height="278"
                         viewBox="0 0 278 278">
@@ -329,7 +329,7 @@
             <li class="list-item col-12 col-lg-5 d-flex flex-column justify-content-between">
                 <h3 class="list-item-title mb-3">Completa</h3>
                 <div data-type="outlined" class="--centered d-flex flex-column justify-content-end align-items-center">
-                    <img class="d-block" src="img/solucoes-versao-completa-jet-vap.png"
+                    <img class="d-block" src="<?php echo get_template_directory_uri(); ?>/img/solucoes-versao-completa-jet-vap.png"
                         alt="Máquina Mata Mato Urban 300 + Caminhão + Reservatório de água" class="img-fluid">
                     <svg class="outline" xmlns="http://www.w3.org/2000/svg" width="278" height="278"
                         viewBox="0 0 278 278">
@@ -372,7 +372,7 @@
                 class="list-column mt-5 ps-md-5 col-12 col-md-6 d-md-flex flex-wrap flex-column justify-content-center align-items-center">
                 <ul class="list">
                     <li class="list-item ps-5 pe-5 p-md-0 mb-5">
-                        <img src="img/presente-icon-jet-vap.svg"
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/presente-icon-jet-vap.svg"
                             alt="Presente em todos os estados brasileiros e vários países da América Latina, África e Europa."
                             class="list-icon">
                         <p class="mt-3 list-item-text">
@@ -380,14 +380,14 @@
                         </p>
                     </li>
                     <li class="list-item ps-5 pe-5 p-md-0 mb-5">
-                        <img src="img/lider-icon-jet-vap.svg"
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/lider-icon-jet-vap.svg"
                             alt="Líder de mercado de limpeza à vapor na América Latina" class="list-icon">
                         <p class="mt-3 list-item-text">
                             Líder de mercado de limpeza à vapor na América Latina
                         </p>
                     </li>
                     <li class="list-item ps-5 pe-5 p-md-0">
-                        <img src="img/producao-icon-jet-vap.svg"
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/producao-icon-jet-vap.svg"
                             alt="Produção de máquinas com tecnologia 100% brasileira." class="list-icon">
                         <p class="mt-3 list-item-text">
                             Produção de máquinas com tecnologia 100% brasileira.
