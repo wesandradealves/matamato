@@ -29,7 +29,7 @@
                     <i class="fas fa-times"></i>
                 </div>
                 <figure>
-                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/thais-jet-vap.jpg" alt="Thais - WhatsApp | Jet Vap" />
+                    <img src="https://www.jetvap.com.br/views/0ff05c4ec0/assets/img/thais-jet-vap.jpg" alt="Thais - WhatsApp | Jet Vap" />
                 </figure>
                 <div class="whatsapp-icon-message-content">
                     <p><strong>Olá! Posso ajudar?</strong> Qualquer coisa me chama aqui, ta?</p>
