@@ -25,11 +25,12 @@
                 <p class="text">
                     Chegou a <strong>Mata Mato Urban 300</strong>, a <strong>máquina de capinar a vapor</strong> que
                     acaba com o mato, pragas e ervas daninhas apenas com a temperatura e a pressão do vapor, sem
-                    utilizar herbicidas ou produtos químicos.
+                    utilizar herbicidas. 
+                    <!-- ou produtos químicos.
                     <br /><br />
                     Mais uma <strong>solução inovadora da Jet Vap</strong>, a Mata Mato Urban 300 é sustentável em todos
                     os sentidos. Com ela, a sua empresa ou prefeitura realiza a capina com mais eficiência, rapidez e
-                    segurança, economizando recursos.
+                    segurança, economizando recursos. -->
                 </p>
                 <a class="btn d-inline-block btn-cta --variation mt-4" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com nossos consultores"
                     class="btn btn-cta">Fale com nossos consultores</a>
@@ -172,8 +173,8 @@
             </li>
         </ul>
         <span class="d-flex mt-5 flex-column justify-content-center">
-            <a class="btn d-inline-block btn-cta mt-3 ms-auto me-auto" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com a gente e saiba mais"
-                class="btn btn-cta">Fale com a gente e saiba mais</a>
+            <a class="btn d-inline-block btn-cta mt-3 ms-auto me-auto" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com nossa equipe"
+                class="btn btn-cta">Fale com nossa equipe</a>
         </span>
     </div>
     <div class="metodo-testado-e-aprovado">
@@ -182,13 +183,16 @@
             <div class="d-flex flex-wrap">
                 <div class="col-12 col-md-6 pe-md-5">
                     <p class="text">
-                        Com a <strong>Mata Mato Urban 300,</strong> a alta temperatura do vapor provoca a morte de
+                        <!-- Com a <strong>Mata Mato Urban 300,</strong> a alta temperatura do vapor provoca a morte de
                         planta desde a raiz, que fica totalmente seca em 2 a 3 dias após a aplicação. Funciona com
                         apenas 3 operadores: 1 motorista e 2 aplicadores de vapor.
                         <br /><br />
                         A primeira cidade a implementar o processo de <strong>capina a vapor</strong> no Brasil foi
-                        Indaiatuba. Veja o restulado pelos olhos da população que já pode comprovar pessoalmente os
-                        benefícios dessa nova tecnologia.
+                        Indaiatuba. Veja o resultado pelos olhos da população que já pode comprovar pessoalmente os
+                        benefícios dessa nova tecnologia. -->
+                        Com a <strong>Mata Mato Urban 300,</strong>, a alta temperatura do vapor provoca a morte da planta desde a raiz, que fica totalmente seca em 2 a 3 dias após a aplicação. Funciona com apenas 3 operadores: 1 motorista e 2 aplicadores do vapor.
+                        <br/><br/>
+                        A primeira cidade a implementar o processo de capina a vapor no Brasil foi Indaiatuba. A população do município já pode comprovar pessoalmente os benefícios. Dê um play no vídeo ao lado e saiba mais sobre essa tecnologia.
                     </p>
                     <span class="d-flex mt-4 flex-column justify-content-center">
                         <a class="btn d-inline-block btn-cta --variation me-auto ms-auto ms-md-0" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20"
@@ -203,8 +207,7 @@
                         <img class="img-fluid d-block" src="https://img.youtube.com/vi/GnMQ53hPF0w/0.jpg" alt="image" />
                     </a>
                     <p class="mt-4 d-block">
-                        <small>Vídeo da prefeitura de Indaiatuba sobre a Mata Mato Urban 300 adquirida pela empresa
-                            Corpus Saneamento e Obras.</small>
+                        <small>Vídeo sobre o funcionamento da Mata Mato Urban 300 com a participação do CEO da Jet Vap, o engenheiro Erivam Aires.</small>
                     </p>
                 </div>
             </div>
@@ -234,9 +237,7 @@
                         </span>
                     </h3>
                     <p class="testimonials-text ps-md-5">
-                        "Nulla eget odio mauris. Nunc in euismod tellus, vel lobortis ex. Proin aliquam, libero eget
-                        lacinia finibus, eros est consectetur felis, in pellentesque arcu neque ut nisl. Vivamus mattis,
-                        ex eget ultricies mattis, risus eros sagittis nibh, ac eleifend nulla elit ac purus."
+                        "Eu nunca tinha visto isso antes! Foi sensacional, parece algo futurista sabe?! É muito legal ver a prefeitura daqui investindo em inovação, cuidando mais do meio-ambiente e da população."
                     </p>
                 </div>
             </div>
@@ -247,7 +248,7 @@
     class="a-maquina-que-combina-produtividade-com-sustentabilidade">
     <div class="container">
         <h2 class="title mb-5">A máquina que combina<br />produtividade com sustentabilidade.</h2>
-        <p class="text">A <strong>Mata Mato Urban 300</strong> faz bem para a natureza epara os negócios.<br />Um
+        <p class="text">A <strong>Mata Mato Urban 300</strong> faz bem para a natureza e para os negócios.<br />Um
             investimento que se paga entre 5 meses a 1 ano de operação.</p>
         <ul class="list d-flex flex-wrap justify-content-between align-items stretch">
             <li class="list-item mb-5 pb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
@@ -257,8 +258,8 @@
             </li>
             <li class="list-item mb-5 pb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
                 <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-sem-produtos-quimicos-jet-vap.svg"
-                    alt="Sem Produtos Químicos">
-                <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Sem Produtos Químicos</h3>
+                    alt="Sem Herbicidas">
+                <h3 class="list-item-title mt-5 ps-md-5 pe-md-5">Sem Herbicidas</h3>
             </li>
             <li class="list-item mb-5 pb-5 d-flex col-6 col-lg-3 flex-column align-items-center">
                 <img class="list-item-icon" height="100" src="<?php echo get_template_directory_uri(); ?>/img/icone-reducao-de-custos-jet-vap.svg"
@@ -301,7 +302,7 @@
             <li class="list-item mb-5 mb-lg-0 col-12 col-lg-5 d-flex flex-column justify-content-between">
                 <h3 class="list-item-title mb-3">Básica</h3>
                 <div data-type="outlined" class="--centered d-flex flex-column justify-content-end align-items-center">
-                    <img class="d-block" src="<?php echo get_template_directory_uri(); ?>/img/intro-maquina-jet-vap.png" alt="Máquina Mata Mato Urban 300"
+                    <img class="d-block" src="<?php echo get_template_directory_uri(); ?>/img/mata-mato-urbar-300-jet-vap.png" alt="Máquina Mata Mato Urban 300"
                         class="img-fluid">
                     <svg class="outline" xmlns="http://www.w3.org/2000/svg" width="278" height="278"
                         viewBox="0 0 278 278">
@@ -358,7 +359,7 @@
                 <p class="text">
                     <strong>Transformar o mundo com base na sustentabilidade.</strong> Esse é o propósito da Jet
                     Vap.<br /><br />Conhecida há mais de 15 anos como sinônimo de inovação, a Jet Vap desenvolve
-                    soluções de Engenharia voltadas as necessidades das empresas e municípios brasileiros.
+                    soluções de Engenharia voltadas às necessidades das empresas e municípios brasileiros.
                 </p>
                 <a class="btn d-inline-block btn-cta --variation mt-5" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com nossos consultores"
                     class="btn btn-cta">Fale com nossos consultores</a>
