@@ -26,11 +26,10 @@
                     Chegou a <strong>Mata Mato Urban 300</strong>, a <strong>máquina de capinar a vapor</strong> que
                     acaba com o mato, pragas e ervas daninhas apenas com a temperatura e a pressão do vapor, sem
                     utilizar herbicidas. 
-                    <!-- ou produtos químicos.
                     <br /><br />
                     Mais uma <strong>solução inovadora da Jet Vap</strong>, a Mata Mato Urban 300 é sustentável em todos
                     os sentidos. Com ela, a sua empresa ou prefeitura realiza a capina com mais eficiência, rapidez e
-                    segurança, economizando recursos. -->
+                    segurança, economizando recursos.
                 </p>
                 <a class="btn d-inline-block btn-cta --variation mt-4" href="https://api.whatsapp.com/send?phone=554130798009&text=Ol%C3%A1,%20" title="Fale com nossos consultores"
                     class="btn btn-cta">Fale com nossos consultores</a>
