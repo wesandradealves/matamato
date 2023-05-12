@@ -189,7 +189,7 @@
                         A primeira cidade a implementar o processo de <strong>capina a vapor</strong> no Brasil foi
                         Indaiatuba. Veja o resultado pelos olhos da população que já pode comprovar pessoalmente os
                         benefícios dessa nova tecnologia. -->
-                        Com a <strong>Mata Mato Urban 300,</strong>, a alta temperatura do vapor provoca a morte da planta desde a raiz, que fica totalmente seca em 2 a 3 dias após a aplicação. Funciona com apenas 3 operadores: 1 motorista e 2 aplicadores do vapor.
+                        Com a <strong>Mata Mato Urban 300,</strong> a alta temperatura do vapor provoca a morte da planta desde a raiz, que fica totalmente seca em 2 a 3 dias após a aplicação. Funciona com apenas 3 operadores: 1 motorista e 2 aplicadores do vapor.
                         <br/><br/>
                         A primeira cidade a implementar o processo de capina a vapor no Brasil foi Indaiatuba. A população do município já pode comprovar pessoalmente os benefícios. Dê um play no vídeo ao lado e saiba mais sobre essa tecnologia.
                     </p>
